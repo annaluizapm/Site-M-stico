@@ -1,0 +1,140 @@
+/* carrinho de compras.css */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: #000; /* Fundo preto */
+    color: #fff; /* Texto branco */
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: url(assets/fundo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+a {
+    color: #fff;
+    font-weight: bold; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    opacity: 0.5;
+}
+
+.logo img {
+    width: 200px;
+    height: auto; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: transparent;
+    height: 15vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #772f79a9; /* Fundo roxo com opacidade 0.66 */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cart-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo branco com opacidade 0.5 */
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.cart-item span, .cart-item input {
+    margin: 0 10px;
+}
+
+.cart-summary {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.5); /* Fundo branco com opacidade 0.5 */
+}
+
+.cart-summary h2 {
+    margin-bottom: 10px;
+}
+
+.cart-summary p {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    background-color: #e0e0e0;
+    color: #ffffff; 
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    text-align: center;
+}
+
+.remove-btn {
+    background-color: #e74c3c;
+}
+
+.remove-btn:hover {
+    background-color: #c0392b;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.2em;
+    background-color: #27ae60;
+}
+
+.checkout-btn:hover {
+    background-color: #2ecc71;
+}

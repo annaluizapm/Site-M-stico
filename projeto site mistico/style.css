@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: url(assets/fundo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+    color: #fff;
+    font-weight: bold; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+.logo img {
+    width: 200px;
+    height: auto; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: transparent;
+    height: 15vh;
+}
+
+
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+.titulo1{
+    text-align: center;
+    color: rgb(209, 130, 225);
+    padding-top: 50px;
+    font-size: 65px;
+    font-family: 'Libre Baskerville', serif;
+    line-height: 5vh;
+
+}
+
+.texto1{
+    margin-left: 9vw;
+    margin-right: 9vw;
+    font-size: 24px;
+    color:rgb(255, 255, 255);
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    padding: 40px;
+}

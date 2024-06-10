@@ -1,0 +1,92 @@
+*{padding: 0;
+    margin: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: url(assets/fundo.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+a {
+    color: #fff;
+    font-weight: bold; 
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+a:hover {
+    opacity: 0.5;
+}
+
+
+.logo img {
+    width: 200px;
+    height: auto; 
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: transparent;
+    height: 15vh;
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+
+section{
+    height: 70vh;
+    width: 60vw;
+    background-color: rgb(250, 240, 228);
+    margin-left:20vw; 
+    border: 1px solid rgb(250, 240, 228); 
+    border-radius: 30px; 
+    display: flex;
+    align-self: center;
+}
+
+.navegador-primario{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 250px;
+}
+
+.container{
+    background-color: rgb(137, 68, 184); 
+    height: 14vh;
+    width: 18vw;
+    border: 1px solid rgb(137, 68, 184);
+    border-radius: 20px;
+}
+
+.container2{
+    background-color: rgb(137, 68, 184); 
+    height: 9vh;
+    width: 18vw;
+    border: 1px solid rgb(137, 68, 184);
+    border-radius: 20px;
+}
+
+.texto2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 33px;
+    color:  rgb(250, 240, 228);
+    margin-left: 10px;
+    text-decoration: underline;
+    margin-top: 5px;
+}
+
